@@ -1,7 +1,5 @@
 package com.zerods.learn.interview.algorithm.sort;
 
-import com.zerods.learn.utils.PrintUtil;
-
 import java.util.Arrays;
 
 /**
