@@ -11,17 +11,17 @@ public abstract class AbstractSort implements Sort{
     }
 
     public boolean checkTrue() {
-        int[] nums1 = new int[]{5, 4, 3, 1, 2, 0, 8, 7, 6, 7};
+        int[] nums1 = new int[]{5, 4, 3, 1, 2, 9, 8, 7, 6, 7};
         sort(nums1);
 
-        int[] nums2 = new int[]{5, 4, 3, 1, 2, 0, 8, 7, 6, 7};
+        int[] nums2 = new int[]{5, 4, 3, 1, 2, 9, 8, 7, 6, 7};
         Arrays.sort(nums2);
 
 
-        int[] nums3 = new int[]{5, 5, 5, 5, 2, 2, 2, 0, 8, 7, 6, 7};
+        int[] nums3 = new int[]{5, 5, 5, 5, 2, 2, 2, 9, 8, 7, 6, 7};
         sort(nums3);
 
-        int[] nums4 = new int[]{5, 5, 5, 5, 2, 2, 2, 0, 8, 7, 6, 7};
+        int[] nums4 = new int[]{5, 5, 5, 5, 2, 2, 2, 9, 8, 7, 6, 7};
         Arrays.sort(nums4);
 
         return checkArrayEquals(nums1, nums2) && checkArrayEquals(nums3, nums4);
