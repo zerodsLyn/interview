@@ -12,7 +12,7 @@
 * 对资源的申请有了限制，避免资源耗尽
 
 下面基于Java的线程池实现进行学习，下面给出了Java中ThreadPoolExecutor的实现UML：
-![e72c0140b9ac265833a7ffbaba354cfe](threadpool/resources/B02D9CF7-9ED5-4826-8559-39BB530914C7.png)
+![uml](../../resources/threadpool.png)
 
 
 ### 1 Executor
